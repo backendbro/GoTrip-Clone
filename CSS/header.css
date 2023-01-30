@@ -1,0 +1,164 @@
+:root {
+    --color-white:white;
+    --color-blue-1: #3554D1;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&family=Solitreo&display=swap');
+
+html {
+    font-family: 'Jost',sans-serif;
+}
+
+body{
+    padding-top: 40vh;
+}
+
+.header{
+    /* background-color: var(--color-white); */
+    background-color: var(--color-white);
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
+    align-items:center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    height: 11vh;
+}
+
+.header ul li {
+    list-style: none;
+    display: inline-block;
+    font-family: 'Jost', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+
+.left-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-li {
+    left: 0px;
+    top: 0px;
+}
+
+.logo-img{
+    width: 140px;
+}
+
+.ul-right-section {
+    margin-left: -10px;
+}
+
+.ul-right-section li {
+    margin-top: -15px;
+    margin-right: 20px;
+}
+
+main {
+    position: absolute;
+    top: 80px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #E1F5FE;
+}
+
+.right-section{
+    margin-right: 30px;
+}
+
+.right-section ul li {
+    margin-right: 20px;
+}
+
+
+.right-section ul span {
+    margin-right: 18px;
+}
+
+.li-with-the-img{
+    display: flex;
+    position: relative;
+    margin-left: 20px;
+}
+
+.li-with-the-img img {
+    border-radius: 30px;
+    position: absolute;
+    left: -25px;
+    top: -2px;
+}
+
+.right-section ul li button {
+    padding: 18px 30px;
+    border-radius: 4px;
+}
+
+.become-expert{
+    background-color: var(--color-blue-1);
+    color: white;
+    border: none;
+}
+
+.register {
+    background-color: white;
+    border: 1px solid var(--color-blue-1);
+    color: var(--color-blue-1);
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.register:hover{
+    color: white;
+    background-color: var(--color-blue-1);
+}
+
+header i {
+    margin-left: 5px;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  
+
+  
+  .dropdown-options {
+    display: none;
+    position: absolute;
+    overflow: auto;
+    background-color:#fff;
+    top: 10px;
+    border-radius:5px;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+  
+  .dropdown:hover .dropdown-options {
+    display: block;
+    color: white;
+  }
+  
+  .dropdown-options a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+    padding:20px 40px;
+  }
+  
+  .dropdown-options a:hover {
+    color: white;
+    background-color: #ddd;
+    border: 1px solid red;
+}
+  
