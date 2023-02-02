@@ -27,7 +27,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 1000;
     height: 11vh;
 }
 
@@ -64,15 +64,6 @@ body{
     margin-right: 20px;
 }
 
-main {
-    position: absolute;
-    top: 80px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #E1F5FE;
-}
-
 .right-section{
     margin-right: 30px;
 }
@@ -96,18 +87,23 @@ main {
     border-radius: 30px;
     position: absolute;
     left: -25px;
-    top: -2px;
+    top: 3px;
 }
 
 .right-section ul li button {
     padding: 18px 30px;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .become-expert{
     background-color: var(--color-blue-1);
     color: white;
     border: none;
+}
+
+.become-expert:active {
+    opacity: .6;
 }
 
 .register {
@@ -127,7 +123,6 @@ header i {
 }
 
 .dropdown {
-    display: inline-block;
     position: relative;
   }
   
@@ -136,29 +131,45 @@ header i {
   .dropdown-options {
     display: none;
     position: absolute;
-    overflow: auto;
+    overflow: hidden;
     background-color:#fff;
-    top: 10px;
-    border-radius:5px;
-    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+    width: 240px;
   }
   
   .dropdown:hover .dropdown-options {
     display: block;
     color: white;
+    /* top: 15px;
+    left: -70px; */
   }
   
   .dropdown-options a {
     display: block;
+    margin-left: 23px;
+    text-align: left;
     color: #000000;
-    padding: 5px;
     text-decoration: none;
-    padding:20px 40px;
+    padding:20px 10px 2px 10px;
+    font-family: 'Jost',sans-serif;
+    scroll-behavior: hidden;
+}
+
+   .dropdown-options a:nth-child(1){
+    margin-top: 30px;
   }
-  
+
+  .dropdown-options a:nth-child(3){
+    margin-bottom: 30px;
+  }
+
+
   .dropdown-options a:hover {
-    color: white;
-    background-color: #ddd;
-    border: 1px solid red;
+    color: var(--color-blue-1);
+    background-color: rgb(236, 233, 233);
+    width: 150px;
 }
   
+.dropdown-options a:hover a:active {
+    color: red;
+}
+

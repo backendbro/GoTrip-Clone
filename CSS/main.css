@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&family=Solitreo&display=swap');
+
+
+main {
+    font-family: 'Roboto',sans-serif;
+    position: absolute;
+    top: 90px;
+    bottom: -95vh;
+    left: 0;
+    right: 0;
+    background-color: #E1F5FE;
+    z-index: 900;
+}
+
+ .login-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+ }
+
+form {
+    box-shadow: 0px 10px 60px 0px #0510360d;
+    border-radius: 5px;
+    position: absolute;
+    top: 120px;
+    background-color: white;
+    display: flex;
+    justify-content:left;
+    align-items: left;
+    flex-direction: column;
+    padding: 50px 50px 50px 50px;
+    width: 540px;
+    height: 140vh;
+}
+
+.form-text {
+    font-size: 16px;
+    padding: 10px 15px;
+    margin-left: 1px;
+    margin-top: -25px;
+    font-weight: normal;
+}
+
+.form-text p a {
+   text-decoration: none;
+   color: #3554D1;
+}
+
+.form-text h1 {
+    font-size: 20px;
+    margin-bottom: -10px;
+}
+
+form input{
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    /* padding: 0 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    */
+    min-height: 40px; 
+    padding: 14px 30px;
+    transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+    margin: 10px;
+    font-size: 13px;
+    line-height: 1.9;
+}
+
+form input::placeholder{
+    margin: -30px;
+   
+}
+
+.checkbox-div{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-left: 3px;
+    margin-bottom: 10px;
+}
+
+.checkbox-div input{
+    margin-top: 32px;
+    outline: none;
+    width: 30px;
+    height: 30px;
+}
+
+.checkbox-div p {
+    margin-top: 38px;
+    line-height: 1.5;
+    color: #697488;
+}
+
+.sign-up {
+    color: white;
+    padding: 14px 30px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #3554D1;
+    border: none;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.sign-up:hover{
+    background-color: black;
+    color: white;
+}
+
+.sign-in-with-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sign-in-with-section p {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.sign-in-with-section button{
+    padding: 19px 40px;
+    margin-top: 14px;
+    background-color: transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 15px;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.sign-up-facebook{
+    border: 1px solid #3554D1;
+    color: #3554D1; 
+}
+
+.sign-up-facebook:hover{
+    background-color: #3554D1;
+    color: white;
+}
+
+.sign-up-google{
+    border: 1px solid #D93025;
+    color: #D93025; 
+}
+
+.sign-up-google:hover{
+    background-color: #D93025;
+    color: white;
+}
+
+
+.sign-up-apple{
+    border: 1px solid #0D2857;
+    color: #0D2857; 
+    margin-bottom: -12px;
+}
+
+.sign-up-apple:hover{
+    background-color: #0D2857;
+    color: white;
+}
+
+.privacy {
+    text-align: center;
+    margin-top: -20px;
+    font-weight: 500;
+    font-size: 15px;   
+}
+

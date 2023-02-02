@@ -1,0 +1,64 @@
+.subscribe-section{
+    background-color: #051036;
+    position: absolute;
+    top: 190vh;
+    left: 0;
+    right: 0;
+   z-index: 800;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0px;
+    height: 15vh;
+}
+
+
+
+section .left-section {
+    padding-left: 170px;
+    display: block;
+}
+
+section .left-section h2{
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: -15px;
+}
+
+
+section .left-section p {
+    font-size: 16px;
+}
+section .right-section {
+    padding-right: 170px;
+}
+
+section .right-section input {
+    width: 420px;
+    height: 55px;
+    border-radius: 5px;
+    color: black;
+    border: none;
+    font-size: 16px;
+    padding-left: 15px;
+    outline: none;
+}
+
+
+section .right-section input::placeholder {
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+section .right-section button {
+    padding: 14px 30px;
+    background-color: #3554D1;
+    height: 60px;
+    border-radius: 5px;
+    color: white;
+}
+
+
