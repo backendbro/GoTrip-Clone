@@ -1,0 +1,36 @@
+.bottom-section{
+    margin-bottom: -10px;
+}
+
+.bottom-section .hr {
+    font-weight: 100;
+    margin-left: 135px;
+    width: 1300px;
+    border-bottom: 1px solid #c6cbd3;
+}
+
+.bottom-section-container {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.bottom-section-container .left-section ul, .bottom-section-container .right-section ul {
+   list-style: none;
+}
+
+
+.bottom-section-container .left-section ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.bottom-section-container .right-section ul li {
+    display: inline-block;
+}
+
+.right-section ul li:nth-child(2) a, .right-section ul li:nth-child(4){
+    font-weight: 500;
+    color: #051036;
+    font-size: 14px;
+}
+

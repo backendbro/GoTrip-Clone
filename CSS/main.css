@@ -2,7 +2,7 @@
 
 
 main {
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Jost', "Roboto",sans-serif;
     position: absolute;
     top: 90px;
     bottom: -95vh;
@@ -36,21 +36,31 @@ form {
 }
 
 .form-text {
-    font-size: 16px;
+    font-size: 15px;
     padding: 10px 15px;
     margin-left: 1px;
-    margin-top: -25px;
-    font-weight: normal;
+    font-family: "Jost", sans-serif;
+}
+
+.form-text h1 {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.form-text p {
+    color: #697488;
+    font-weight: 16px;
 }
 
 .form-text p a {
    text-decoration: none;
-   color: #3554D1;
+    color: #3554D1;
 }
 
 .form-text h1 {
     font-size: 20px;
     margin-bottom: -10px;
+    font-weight: 500;
 }
 
 form input{
@@ -79,21 +89,25 @@ form input::placeholder{
     align-self: center;
     margin-left: 3px;
     margin-bottom: 10px;
+    font-family: "Jost", sans-serif;
 }
 
-.checkbox-div input{
-    margin-top: 32px;
+.checkbox{
+    margin-top: 12px;
     outline: none;
-    width: 30px;
-    height: 30px;
+    width: 16px;
 }
 
 .checkbox-div p {
     margin-top: 38px;
     line-height: 1.5;
     color: #697488;
+    font-size: 15px;
 }
 
+section {
+    font-family: "Jost", "Roboto", "sans-serif";
+}
 .sign-up {
     color: white;
     padding: 14px 30px;
@@ -104,6 +118,8 @@ form input::placeholder{
     font-weight: 500;
     font-size: 15px;
     cursor: pointer;
+    font-family: "Jost", "Roboto", "sans-serif";
+
 }
 
 .sign-up:hover{
@@ -131,11 +147,16 @@ form input::placeholder{
     font-weight: 500;
     font-size: 15px;
     transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    font-family: "Jost", "Roboto", "sans-serif";
 }
 
 .sign-up-facebook{
     border: 1px solid #3554D1;
     color: #3554D1; 
+}
+
+.sign-up-facebook i, .sign-up-google i, .sign-up-apple i {
+    margin-right: 5px;
 }
 
 .sign-up-facebook:hover{
@@ -167,8 +188,7 @@ form input::placeholder{
 
 .privacy {
     text-align: center;
-    margin-top: -20px;
-    font-weight: 500;
-    font-size: 15px;   
+    font-weight: 400;
+    font-size: 17px;   
 }
 
