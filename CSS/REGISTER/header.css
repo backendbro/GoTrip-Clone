@@ -28,7 +28,9 @@ body{
     left: 0;
     width: 100%;
     z-index: 1000;
-    height: 11vh;
+    /* height: 11vh; */
+    height: 90px;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .header ul li {
@@ -36,7 +38,7 @@ body{
     display: inline-block;
     font-family: 'Jost', sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 14.5px;
 }
 
 .header ul li a {
@@ -91,7 +93,7 @@ body{
     border-radius: 30px;
     position: absolute;
     left: -25px;
-    top: 3px;
+    top: 1px;
 }
 
 .right-section ul li button {
@@ -132,15 +134,15 @@ header i {
   
 
   
-  .dropdown-options {
+.dropdown-options {
     display: none;
     position: absolute;
     overflow: hidden;
     background-color:#fff;
     width: 240px;
-  }
+}
   
-  .dropdown:hover .dropdown-options {
+.dropdown:hover .dropdown-options {
     display: block;
     color: white;
     top: 15px;
@@ -158,22 +160,21 @@ header i {
     scroll-behavior: hidden;
 }
 
-   .dropdown-options a:nth-child(1){
+.dropdown-options a:nth-child(1){
     margin-top: 30px;
   }
 
-  .category a:nth-child(3){
-    margin-bottom: 30px;
-  }
 
-  .pages a:nth-child(7){
+.category a:nth-child(3){
+    margin-bottom: 30px;
+}
+
+.pages a:nth-child(7){
     margin-bottom: 80px;
   }
 
 
-
-
-  .dropdown-options a:hover {
+.dropdown-options a:hover {
     color: var(--color-blue-1);
     background-color: rgb(236, 233, 233);
     width: 150px;
