@@ -1,0 +1,52 @@
+.second-section {
+    position: absolute;
+    top: 100vh;
+    left: 0;
+    right: 0;
+    bottom: -100vh;
+    background-color: white;
+}
+
+.second-section .second-section-text {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+.second-section .second-section-text .left-section {
+    display: block;
+}
+
+.second-section .second-section-text .left-section h1{
+    line-height: 1.45;
+    font-weight: 600;
+    font-size: 30px;
+} 
+
+.second-section .second-section-text .left-section p{
+    margin-top: -10px;
+    color: #697488;
+}
+
+.second-section .second-section-text .right-section button{
+   padding: 14px 30px;
+   color: #3554D1;
+   border: none;
+   background-color: rgba(53, 84, 209, 0.05);
+   transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Jost',sans-serif;
+    cursor: pointer;
+}
+
+.second-section .second-section-text .right-section button:hover {
+    color: white;
+    background-color: #3554D1;    
+}
+
+
+
