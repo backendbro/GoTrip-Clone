@@ -1,7 +1,7 @@
 .second-section {
     position: absolute;
-    top: 100vh;
-    left: 0;
+    top: 105vh;
+    left: 160px;
     right: 0;
     bottom: -100vh;
     background-color: white;
@@ -11,9 +11,7 @@
     padding-top: 100px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
-    padding-left: 180px;
-    padding-right: 180px;
+    padding-right: 120px; 
 }
 
 .second-section .second-section-text .left-section {
@@ -21,14 +19,17 @@
 }
 
 .second-section .second-section-text .left-section h1{
+    margin: 0;
     line-height: 1.45;
     font-weight: 600;
     font-size: 30px;
 } 
 
 .second-section .second-section-text .left-section p{
-    margin-top: -10px;
-    color: #697488;
+    margin-top: 5px;
+    font-size: 16px;
+    color:#697488;
+
 }
 
 .second-section .second-section-text .right-section button{
