@@ -103,12 +103,14 @@ body {
   opacity: 1;
 }
 
+
 .fadeIn {
   position: absolute;
   color:#051036;
-  z-index: 1;
+  top: 330px;
+  z-index: 2;
   opacity: 0;
-  height: 60px;
+  height: 55px;
   padding: 0 100px;
   cursor: pointer;
   display: flex;
@@ -121,18 +123,47 @@ body {
   line-height: 1.2;
   border-radius: 4px;
   border: 1px solid transparent;
-  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.5s cubic-bezier(0.65, 0.84, 0.44, 1);
  transform: translate3d(0, 20px, 0);
 
   cursor: pointer;
-  transition: 0.25s all ease-in-out;
+  transition: .4s all ease-in-out;
 }
 
-.img-wrapper:hover .fadeIn {
+.padeIn{
+  position: absolute;
+  z-index: 4;
+
+  top: 278px;
+  opacity: 0;
+  padding-bottom: 290px;
+  cursor: pointer;
+  /* transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1); */
+  
+  cursor: pointer;
+  transition-timing-function: cubic-bezier(0.9, 0.7, 1.0, 0.1);
+  transition: .9s all ease-in-out;
+  transform: translate3d(0, 20px, 0);
+
+  
+}
+
+.img-wrapper:hover .padeIn {
   color: white;
-  background-color: #3554D1;
   opacity: 1;
   transform: translate3d(0, 0, 0);
+}
+
+
+.img-wrapper:hover .fadeIn {
+  color: #3554D1;
+  background-color: white;
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.img-wrapper::after .fadeIn {
+  color: pink;
 }
 
 @media (min-width: 768px) {
