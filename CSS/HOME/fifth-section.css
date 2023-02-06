@@ -1,0 +1,36 @@
+
+.fifth-section{
+    position: absolute;
+    top: 282vh;
+    left: 145px;
+    right: 156px;
+    bottom: -290vh;
+    background-color: white;
+    overflow: hidden;
+    /* max-width: 750px; */
+    
+}
+
+.fifth-section .top-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fifth-section .top-section .left-section{
+    display: block;
+}
+
+.fifth-section .top-section .left-section h2{
+    line-height: 1.45;
+    font-weight: 600;
+    font-size: 30px;
+}
+ 
+
+.fifth-section .top-section .left-section p{
+    margin-top: -18px;
+    font-size: 16px;
+    color: #697488;
+
+}
+

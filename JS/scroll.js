@@ -44,3 +44,34 @@ if (window.matchMedia("(min-width: 768px)").matches) {
 } else {
   $(multipleCardCarousel).addClass("slide");
 }
+
+
+
+  // const imgWrapper = document.getElementById("name");
+  //   imgWrapper.addEventListener("mouseover", (e) => {  
+  //   const imgWrapperChildNodes = imgWrapper.childNodes
+
+  //   const fadeInBtn = imgWrapperChildNodes[7].style.color = "blue"
+  //   const fadeInText = imgWrapperChildNodes[5].style.color = "red" 
+
+
+  //   // fadeInBtn.style.color = "red"
+  //   console.log()
+  //   e.preventDefault()
+   
+  // })
+
+
+  // imgWrapper.addEventListener("mouseout", (e) => {
+  //   const imgWrapperChildNodes = imgWrapper.childNodes
+
+  //   const fadeInBtn = imgWrapperChildNodes[7].style.color = "blue"
+  //   const fadeInText = imgWrapperChildNodes[5].style.color = "white" 
+  
+  
+  //   // fadeInBtn.style.color = "red"
+  //   console.log()
+  //   e.preventDefault()
+      
+  // })
+

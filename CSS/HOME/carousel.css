@@ -1,17 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&family=Solitreo&display=swap');
+:root {
+  --color-white:white;
+  --color-blue-1: #3554D1;
+}
+
+body {
+    font-family: 'Jost',sans-serif;
+}
+
+
 .third-section {
   position: absolute;
-  top: 135vh;
+  top: 131vh;
   left: 0;
   right: 0;
   bottom: -100vh;
- 
 }
 
 .carousel-inner {
   padding: 1em;
 }
 
-
+.carousel {
+  margin-left: 131px;
+}
 
 /* .card {
   margin-left: 2;
@@ -19,42 +31,140 @@
   border: none;
 } */
 
-.carousel-control-prev,
-.carousel-control-next {
-  background-color: #e1e1e1;
+.carousel-control-prev {
+  background-color: white;
   width: 6vh;
   height: 6vh;
   border-radius: 50%;
   top: 50%;
+  left:-.6%;
   transform: translateY(-50%);
+  border: none;
 }
 
+.carousel-control-next {
+  background-color: white;
+  width: 6vh;
+  height: 6vh;
+  border-radius: 50%;
+  top: 50%;
+  left: 87.5%;
+  transform: translateY(-50%);
+  border: none;
+}
+
+.carousel-control-prev i,
+.carousel-control-next i {
+ font-size: 20px;
+ color: black;
+}
+
+
+.carousel-inner .carousel-item .img-wrapper h4 {
+  position: absolute;
+  top: 365px;
+  color: white;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 1.3;
+  margin-bottom: 20px;
+  text-align: center; 
+}
+
+
+/* .img__wrap {
+  position: relative;
+  height: 100%;
+    max-height: 100%;
+} */
+
+.img__description {
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(5, 16, 54, 0.4);
+  border-radius: 5px;
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  opacity: 0;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 35px;
+}
+
+.img-wrapper:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+
+.fadeIn {
+  position: absolute;
+  color:#051036;
+  z-index: 1;
+  opacity: 0;
+  height: 60px;
+  padding: 0 100px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+ transform: translate3d(0, 20px, 0);
+
+  cursor: pointer;
+  transition: 0.25s all ease-in-out;
+}
+
+.img-wrapper:hover .fadeIn {
+  color: white;
+  background-color: #3554D1;
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
 
 @media (min-width: 768px) {
   .carousel-item {
     margin-right: 0;
     display: block;
   }
+
   .carousel-inner {
     display: flex;
   }
 }
  
-.img-wrapper {
+.img-wrapper{
     max-width: 100%;
-    height: 50vh;
-    width: 310px;
+    height: 53vh;
+    width: 298px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 30px;
-}
+    position: relative;
+  }
 
 img {
     height: 100%;
     max-height: 100%;
     border-radius: 5px;
+    
   }
+
+
 
 @media (max-width: 767px) {
    .img-wrapper {

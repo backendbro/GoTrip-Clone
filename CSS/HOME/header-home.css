@@ -94,7 +94,7 @@ body{
 .li-with-the-img img {
     border-radius: 30px;
     position: absolute;
-    left: -25px;
+    left: -34px;
     top: 1px;
 }
 
@@ -141,14 +141,14 @@ header i {
     display: none;
     position: absolute;
     overflow: hidden;
-    background-color:#fff;
+    background-color: #949090;;
     width: 240px;
 }
   
 .dropdown:hover .dropdown-options {
     display: block;
     color: white;
-    top: 15px;
+    top: 17px;
     left: -70px;
   }
   
@@ -156,7 +156,7 @@ header i {
     display: block;
     margin-left: 23px;
     text-align: left;
-    color: #000000;
+    color: white;
     text-decoration: none;
     padding:20px 10px 2px 10px;
     font-family: 'Jost',sans-serif;

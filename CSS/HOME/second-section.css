@@ -1,9 +1,8 @@
 .second-section {
     position: absolute;
     top: 105vh;
-    left: 160px;
+    left: 145px;
     right: 0;
-    bottom: -100vh;
     background-color: white;
 }
 
@@ -11,6 +10,7 @@
     padding-top: 100px;
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
     padding-right: 120px; 
 }
 
@@ -33,7 +33,8 @@
 }
 
 .second-section .second-section-text .right-section button{
-   padding: 14px 30px;
+    margin-top: -28px;
+    padding: 14px 30px;
    color: #3554D1;
    border: none;
    background-color: rgba(53, 84, 209, 0.05);
