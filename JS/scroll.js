@@ -11,7 +11,11 @@ function scrollFunction() {
     }
 }
 
-
+$(document).ready(function(){
+	$(".wish-icon i").click(function(){
+		$(this).toggleClass("fa-heart fa-heart-o");
+	});
+});	
 
 var multipleCardCarousel = document.querySelector(
   "#carouselExampleControls"
@@ -72,7 +76,6 @@ if (window.matchMedia("(min-width: 768px)").matches) {
   //////  2 ////////
 
   imgWrapper2.addEventListener("mouseover", (e) => {  
-    console.log(imgWrapper2.childNodes)
     imgWrapper2.childNodes[5].style.opacity = 0
     e.preventDefault()
   })
@@ -111,12 +114,22 @@ if (window.matchMedia("(min-width: 768px)").matches) {
 
 
 
+  const carouselLeft = document.querySelector('.carousel-indicators')
+
+  const carouselPrevBtn = document.querySelector('.carousel-control-prev')
+  const carouselNextBtn = document.querySelector('.carousel-control-next')
+
+  carouselPrevBtn.addEventListener('click', (e) => {
+    carouselLeft.style.transition =  "1.8s all ease-in-out";
+    carouselLeft.style.justifyContent = "flex-start"
+    e.preventDefault()
+  })
 
 
-
-
-
-
-
+  carouselNextBtn.addEventListener('click', (e) => {
+    carouselLeft.style.transition =  "1.8s all ease-in-out";
+  carouselLeft.style.justifyContent = "flex-end"
+    e.preventDefault()
+  })  
 
 
