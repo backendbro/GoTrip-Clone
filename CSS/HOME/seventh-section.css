@@ -1,0 +1,27 @@
+.seventh-section{
+    position: absolute;
+    top: 422vh;
+    left: 0;
+    right: 0;
+    bottom: -390vh;
+    background-color: #E5F0FD;
+}
+
+.seventh-section .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+}
+
+.seventh-section .left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* 
+.seventh-section .left-section p {
+    width: 200px;
+} */
