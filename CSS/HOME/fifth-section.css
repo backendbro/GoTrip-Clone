@@ -108,7 +108,7 @@ select {
 .fifth-section .carousel-control-next {
 		
 	/* margin: auto 0; */
-    top: 496px;
+    top: 520px;
     right: 526px;
     width: 50px;
 	opacity: 0.8;
@@ -128,7 +128,7 @@ select {
     font-size:30px;
     font-weight: 500;
 	position: absolute;
-	top:510px;
+	top:538px;
 	display: flex;
 	margin: -19px 0 0 0;
 	z-index: 5;
@@ -161,7 +161,7 @@ select {
 	margin-right: -4px;
 }		
 .carousel-indicators {
-	bottom: -50px;
+	bottom: -76px;
 }
 .carousel-indicators li, .carousel-indicators li.active {
 	width: 10px;

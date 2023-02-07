@@ -1,0 +1,46 @@
+
+.sixth-section{
+    position: absolute;
+    top: 382vh;
+    left: 145px;
+    right: 156px;
+    bottom: -320vh;
+    background-color: white;
+    overflow: hidden;
+    /* max-width: 750px; */
+    display: grid;   
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.middle-section-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-section-display img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    max-width: 100%;
+    height: auto;
+}
+
+.middle-section-display h5 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0;
+    line-height: 1.45;
+}
+
+.middle-section-display div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 8px;
+    color: #697488;
+}
+
