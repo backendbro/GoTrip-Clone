@@ -20,7 +20,7 @@
 }
 
 .middle-section-display img {
-    overflow-clip-margin: content-box;
+    margin-bottom: 30px;
     overflow: clip;
     max-width: 100%;
     height: auto;
