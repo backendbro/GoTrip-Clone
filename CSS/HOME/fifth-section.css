@@ -217,7 +217,7 @@ select {
     background-image: linear-gradient(transparent 24px, black 20px);
     background-size: 0;
     background-repeat: no-repeat;
-    transition: background-size 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s;
+    /* transition: background-size 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s; */
 }
 
 .thumb-wrapper .img-box h4  {
@@ -227,7 +227,7 @@ select {
    color: #051036;
    text-align: start;
     margin-top: 15px;
-    transition: .2s all ease-in-out;
+    /* transition: .2s all ease-in-out; */
 }
 
   
@@ -235,12 +235,10 @@ select {
 	width: 100%;
     overflow: hidden;
     margin: 0 auto;
-       
 }
 
  .carousel .item .img-box:hover img{
     transform: scale(1.1, 1.1);
-    
  }
 
 

@@ -3,16 +3,17 @@
     top: 422vh;
     left: 0;
     right: 0;
-    bottom: -390vh;
+    bottom: -397vh;
     background-color: #E5F0FD;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: centre;
+    align-items: center;
+    column-gap: 113px;
 }
 
 .seventh-section .left-section, .seventh-section .right-section {
-    padding-top: 130px;
+    padding-top: 118px;
     padding-bottom: 130px;
 }
 
@@ -20,9 +21,9 @@
     display: flex;
     flex-direction: column;
     /* Can change this later */
-    justify-content: space-between; 
     align-items: flex-start;
     padding-left: 150px;
+  
 }
 
 .seventh-section .left-section h2 {
@@ -89,4 +90,104 @@
 }
 
 
+/* .container {
+    width: 200px;
+    height: 50vh;
+} */
 
+.seventh-section .right-section {
+    display: flex;
+    flex-direction: column;
+    /* Can change this later */
+    justify-content: space-between; 
+    align-items: flex-start;
+    padding-right: 100px;
+    margin-top: 20px;
+}
+
+ .swiper {
+    width: 660px;
+    height: 320px;
+    margin-bottom: 50px;
+    cursor: grabbing;
+}
+
+
+
+  .swiper-slide {
+    font-size: 18px;
+    background-color:  #E5F0FD;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .profile-header-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    /* margin-right: 40px; */
+  }
+
+  .swiper .swiper-slide .profile-header {
+    /* padding: 20px 40px; */
+    column-gap: 25px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.profile-header-text {
+    display: block;
+    text-align: left;
+}
+
+.profile-header-text h5{
+    margin: 0;
+    font-weight: 500;
+    line-height: 1.45;
+    font-size: 16px;
+}
+
+.profile-header-text p{
+    margin: 0;
+    color: #697488;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.profile-description {
+    padding: 0 10px;
+    width: 650px;
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #051036;
+    text-align: left;
+}
+
+.swiper-num-1, .swiper-num-2 {
+    font-weight: 500;
+    color: #051036;
+    position: absolute;
+    top: 37vh;
+   
+}
+
+.swiper-num-1{
+    border: 1px solid red;
+    left: -10px;
+}
+
+.swiper-num-2{
+    border: 1px solid red;
+    right: 90px;
+}
+
+.swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal{
+    width: 50%;
+}

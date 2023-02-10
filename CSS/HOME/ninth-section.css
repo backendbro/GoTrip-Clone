@@ -1,0 +1,50 @@
+.ninth-section{
+    position: absolute;
+    top: 580vh;
+    left: 0;
+    right: 0;
+    bottom: -597vh;
+    background-color: white;
+    padding: 0 150px;
+}
+
+.ninth-section .top-section {
+    padding-top: 118px;
+}
+
+.ninth-section .top-section h2 {
+    line-height: 1.45;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.ninth-section .top-section p {
+    font-size: 16px;
+    color: #697488;
+}
+
+.ninth-section .bottom-section ul {
+   list-style: none;
+   display: flex;
+   padding-top: 40px
+}
+
+.ninth-section .bottom-section ul li button{
+    border-radius: 4px;
+    padding: 15px 30px;
+    font-weight: 500;
+    font-size: 15px;
+    border: none;
+    margin-right: 10px;
+    transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+    background: transparent;
+}
+
+.ninth-section .bottom-section ul li .active{
+    color: #3554D1;
+    background-color: rgba(53, 84, 209, 0.05);
+}
+
+.ninth-section .bottom-section ul li button:hover{
+   color: #3554D1;
+}

@@ -114,7 +114,7 @@ if (window.matchMedia("(min-width: 768px)").matches) {
 
 
 
-  const carouselLeft = document.querySelector('.carousel-indicators')
+     carouselLeft = document.querySelector('.carousel-indicators')
 
   const carouselPrevBtn = document.querySelector('.carousel-control-prev')
   const carouselNextBtn = document.querySelector('.carousel-control-next')
@@ -131,5 +131,4 @@ if (window.matchMedia("(min-width: 768px)").matches) {
   carouselLeft.style.justifyContent = "flex-end"
     e.preventDefault()
   })  
-
 
