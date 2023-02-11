@@ -1,0 +1,79 @@
+.subscribe-sections{
+    background-color: #0D2857;
+    position: absolute;
+    top: 682vh;
+    left: 0;
+    right: 0;
+    bottom: -557vh;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0px;
+    height: 12.5vh;
+}
+
+
+
+.subscribe-sections .left-section {
+    padding-left: 170px;
+    display: flex;
+}
+
+.subscribe-sections .left-section i {
+    /* background-color: white;
+    color: black; */
+    margin-right: 20px;
+    font-size: 70px;
+}
+
+.subscribe-sections .left-section h2{
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: -20px;
+    border: 1px solid blue;
+}
+
+
+.subscribe-sections .left-section p {
+    font-size: 16px;
+    margin-top: 20px;
+    border: 1px solid red;
+}
+
+.subscribe-sections .right-section {
+    padding-right: 170px;
+    font-family: "Jost", "Roboto";
+}
+
+.subscribe-sections .right-section input {
+    width: 420px;
+    height: 55px;
+    border-radius: 5px;
+    color: black;
+    border: none;
+    font-size: 16px;
+    padding-left: 15px;
+    outline: none;
+}
+
+
+.subscribe-sections .right-section input::placeholder {
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Jost", "Roboto";
+}
+
+.subscribe-sections .right-section button {
+    padding: 14px 30px;
+    background-color: #3554D1;
+    height: 60px;
+    border-radius: 5px;
+    color: white;
+    font-family: "Jost", "Roboto";
+    border: none;
+}
+
+

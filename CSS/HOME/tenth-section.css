@@ -1,0 +1,59 @@
+.tenth-section{
+    position: absolute;
+    top: 622vh;
+    left: 0;
+    right: 0;
+    bottom: -407vh;
+    background-color: white;
+    /* padding-left:110px;
+    padding-right:280px;
+    padding-top: 30px; */
+    padding: 30px 280px 0px 110px;
+}
+
+.tenth-section ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.tenth-section ul li{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.tenth-section > 
+ul:nth-child(1) li div:nth-child(1), 
+ul:nth-child(2) li div:nth-child(1), 
+ul:nth-child(3) li div:nth-child(1),
+ul:nth-child(4) li div:nth-child(1),
+ul:nth-child(5) li div:nth-child(1)
+{
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.tenth-section > 
+ul:nth-child(1) li div:nth-child(1):hover, 
+ul:nth-child(2) li div:nth-child(1):hover, 
+ul:nth-child(3) li div:nth-child(1):hover,
+ul:nth-child(4) li div:nth-child(1):hover,
+ul:nth-child(5) li div:nth-child(1):hover
+{
+    color: #0d6efd;
+}
+
+.tenth-section > 
+ul:nth-child(1) li div:nth-child(2),
+ul:nth-child(2) li div:nth-child(2),
+ul:nth-child(3) li div:nth-child(2),
+ul:nth-child(4) li div:nth-child(2),
+ul:nth-child(5) li div:nth-child(2)
+{
+    color: #697488;
+    font-weight: 500;
+    font-size: 14px;
+  }
