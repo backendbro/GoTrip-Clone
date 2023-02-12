@@ -124,6 +124,7 @@ body{
 
 
 .footer-bottom-section-container {
+    margin-top: 10px;
     display: flex;
     margin-left: 120px;
     justify-content: space-between;    
@@ -146,8 +147,15 @@ body{
 }
 
 
-.footer-right-section ul li:nth-child(2) a, .footer-right-section ul li:nth-child(4) a{
+.footer-right-section ul li:nth-child(2) a,
+.footer-right-section ul li:nth-child(4) a{
     font-weight: 500;
     color: #051036;
     font-size: 14px;
+    text-decoration: underline;
+}
+
+
+.hideme {
+    opacity: 0;
 }
