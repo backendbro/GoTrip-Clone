@@ -2,6 +2,7 @@
 :root {
   --color-white:white;
   --color-blue-1: #3554D1;
+  --color-black: #000;
 }
 
 body {
@@ -17,22 +18,21 @@ body {
   bottom: -100vh;
 }
 
+
+
+
 .third-section .carousel-inner {
   padding: 1em;
 }
+
 
 .third-section .carousel {
   margin-left: 131px;
 }
 
-/* .card {
-  margin-left: 2;
-  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
-  border: none;
-} */
 
 .third-section .carousel-control-prev {
-  background-color: white;
+  background-color: var(--color-white);
   width: 6vh;
   height: 6vh;
   border-radius: 50%;
@@ -43,7 +43,7 @@ body {
 }
 
 .third-section .carousel-control-next {
-  background-color: white;
+  background-color: var(--color-white);
   width: 6vh;
   height: 6vh;
   border-radius: 50%;
@@ -56,14 +56,14 @@ body {
 .third-section .carousel-control-prev i,
 .third-section .carousel-control-next i {
  font-size: 20px;
- color: black;
+ color: var(--color-black);
 }
 
 
 .third-section .carousel-inner .carousel-item .img-wrapper h4 {
   position: absolute;
   top: 365px;
-  color: white;
+  color: var(--color-white);
   margin: 0 auto;
   font-weight: 600;
   font-size: 26px;
@@ -73,11 +73,6 @@ body {
 }
 
 
-/* .img__wrap {
-  position: relative;
-  height: 100%;
-    max-height: 100%;
-} */
 
 .third-section .img__description {
   visibility: hidden;
@@ -91,7 +86,7 @@ body {
   border-radius: 5px;
   transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
   opacity: 0;
-  color: white;
+  color: var(--color-white);
   text-align: center;
   font-size: 14px;
   font-weight: 400;
@@ -125,7 +120,7 @@ body {
   border: 1px solid transparent;
   transition: all 0.5s cubic-bezier(0.65, 0.84, 0.44, 1);
  transform: translate3d(0, 20px, 0);
-
+  
   cursor: pointer;
   transition: .4s all ease-in-out;
 }
@@ -210,7 +205,10 @@ body {
   display: flex;
   justify-content: flex-start;
   margin-left: 24px;
+  
 }
+
+
 
 
 .third-section .carousel-indicators li,.third-section .carousel-indicators li.active {

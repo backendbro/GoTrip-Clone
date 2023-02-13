@@ -114,7 +114,7 @@ if (window.matchMedia("(min-width: 768px)").matches) {
 
 
 
-     carouselLeft = document.querySelector('.carousel-indicators')
+    carouselLeft = document.querySelector('.carousel-indicators')
 
   const carouselPrevBtn = document.querySelector('.carousel-control-prev')
   const carouselNextBtn = document.querySelector('.carousel-control-next')
@@ -132,3 +132,26 @@ if (window.matchMedia("(min-width: 768px)").matches) {
     e.preventDefault()
   })  
 
+
+  const swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    scrollbar: {
+        el: ".swiper-scrollbar",
+        hide: false,
+    }
+});
+
+
+AOS.init({
+    duration: 3000,
+    once: true
+});
+
+
+$(document).ready(function(){
+     $("#myCarousel").carousel({
+         interval : 8000,
+         pause: false
+     });
+});
