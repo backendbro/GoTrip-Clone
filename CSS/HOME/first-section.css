@@ -18,7 +18,7 @@ body{
 }
 
  .first-section::after{
-    content: "click image to enlarge";
+    content: "";
     position: absolute;
     z-index: 2;
     top: 0;

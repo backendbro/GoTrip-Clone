@@ -1,0 +1,190 @@
+:root {
+    --color-white:white;
+    --color-blue-1: #3554D1;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&family=Solitreo&display=swap');
+
+html {
+    font-family: 'Jost',sans-serif;
+}
+
+body{
+    padding-top: 40vh;
+    font-family: 'Jost',sans-serif;
+}
+
+.header{
+    /* background-color: var(--color-white); */
+    
+    color: white;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* flex-wrap: nowrap; */
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
+    align-items:center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 90px;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    padding-top: 15px;
+    /* height: 11vh; */
+}
+
+.header ul li {
+    list-style: none;
+    display: inline-block;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 14.5px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color:black;
+}
+
+.left-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-li {
+    left: -1px;
+    top: 4px;
+}
+
+.logo-img{
+    width: 140px;
+}
+
+.ul-right-section {
+    margin-left: -10px;
+}
+
+.ul-right-section li {
+    margin-top: -15px;
+    margin-right: 20px;
+}
+
+.right-section{
+    margin-right: 30px;
+}
+
+.right-section ul li {
+    margin-right: 20px;
+}
+
+
+.right-section ul span {
+    margin-right: 18px;
+}
+
+.li-with-the-img{
+    display: flex;
+    position: relative;
+    margin-left: 20px;
+}
+
+.li-with-the-img img {
+    border-radius: 30px;
+    position: absolute;
+    left: -34px;
+    top: 1px;
+}
+
+.right-section ul li button {
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.become-expert{
+    padding: 16px 35px;
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.become-expert:active {
+    opacity: .6;
+}
+
+.register {
+    padding: 14px 35px;
+    background-color: transparent;
+    border: .2px solid white;
+    color: white;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.register:hover{
+    color: black;
+    background-color: white;
+}
+
+header i {
+    margin-left: 5px;
+}
+
+.dropdown {
+    position: relative;
+  }
+  
+
+  
+.dropdown-options {
+    display: none;
+    position: absolute;
+    overflow: hidden;
+    background-color: #949090;;
+    width: 240px;
+}
+  
+.dropdown:hover .dropdown-options {
+    display: block;
+    color: white;
+    top: 17px;
+    left: -70px;
+  }
+  
+  .dropdown-options a {
+    display: block;
+    margin-left: 23px;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    padding:20px 10px 2px 10px;
+    font-family: 'Jost',sans-serif;
+    scroll-behavior: hidden;
+}
+
+.dropdown-options a:nth-child(1){
+    margin-top: 30px;
+  }
+
+
+.category a:nth-child(3){
+    margin-bottom: 30px;
+}
+
+.pages a:nth-child(7){
+    margin-bottom: 80px;
+  }
+
+
+.dropdown-options a:hover {
+    color: var(--color-blue-1);
+    background-color: rgb(236, 233, 233);
+    width: 150px;
+}
+  
+.dropdown-options a:hover a:active {
+    color: red;
+}
+
