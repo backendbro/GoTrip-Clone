@@ -1,0 +1,35 @@
+
+:root {
+    --color-blue-1:#3554D1;
+    --color-dark-1: #051036;
+    --color-light-1:#697488;
+}
+
+.blog-fourth-section{
+    position: absolute;
+    top: 188px;
+    right: 165px;
+    left: 145px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.blog-fourth-section .top-section {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.blog-fourth-section .top-section h2 {
+    line-height: 1.45;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.blog-fourth-section .top-section p{
+    font-size: 16px;
+    color: var(--color-light-1);
+    margin-top: -18px;
+}
