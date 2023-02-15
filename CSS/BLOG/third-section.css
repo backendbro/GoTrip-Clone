@@ -7,7 +7,7 @@
 
 .blog-third-section{
     position: absolute;
-    top: 130px;
+    top: 110px;
     right: 165px;
     left: 145px;
     display: flex;
@@ -17,7 +17,7 @@
 
 .blog-third-section .left-section {
     display: flex;
-    column-gap: 5px;
+    column-gap: 9px;
 }
 
 .blog-third-section > .left-section div, .right-section div {
