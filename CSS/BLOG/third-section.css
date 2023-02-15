@@ -1,0 +1,27 @@
+
+:root {
+    --color-blue-1:#3554D1;
+    --color-dark-1: #051036;
+    --color-light-1:#697488;
+}
+
+.blog-third-section{
+    position: absolute;
+    top: 130px;
+    right: 150px;
+    left: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-third-section .left-section {
+    display: flex;
+    column-gap: 5px;
+}
+
+.blog-third-section > .left-section div, .right-section div {
+    font-size: 14px;
+    color: var(--color-light-1);   
+}
+
