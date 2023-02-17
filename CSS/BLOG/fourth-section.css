@@ -50,9 +50,53 @@
     align-items: center;
  }
  
- .blog-fourth-section .bottom-section .left-section .pagination ul li .numbers div{
-    display: inline-block;
+ .blog-fourth-section .bottom-section .left-section .pagination .properties {
+    text-align: center;
+    color: var(--color-light-1);
+    font-size: 14px !important;
+ } 
+ 
+  .blog-fourth-section .bottom-section .left-section .pagination ul li .left{
+    margin-left: -40px;
  }
+
+ .blog-fourth-section .bottom-section .left-section .pagination ul li button{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--color-border) !important;
+    border-radius: 100%;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    background-color: transparent;
+    padding: 0;
+ }
+
+ .blog-fourth-section .bottom-section .left-section .pagination ul li button:hover{
+   color: white;
+   background-color: var(--color-blue-1);
+ }
+
+ .blog-fourth-section .bottom-section .left-section .pagination ul li button .fa {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+}
+
+ .blog-fourth-section .bottom-section .left-section .pagination ul li .numbers  div {
+    display: inline-block;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    position: relative;
+}
+
+ .blog-fourth-section .bottom-section .left-section .pagination ul li .numbers div span{
+    position: absolute;
+    top: 8px;
+    left: 12.4px;
+}
 
 
 .blog-fourth-section .bottom-section .left-section .blog-post{
