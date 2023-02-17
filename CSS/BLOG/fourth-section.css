@@ -3,8 +3,8 @@
     --color-blue-1:#3554D1;
     --color-dark-1: #051036;
     --color-light-1:#697488;
-    --color-dark-1:#051036;
     --color-border: #DDDDDD;
+    --color-light-2: #F5F5F5;
 }
 
 .blog-fourth-section{
@@ -95,9 +95,13 @@
  .blog-fourth-section .bottom-section .left-section .pagination ul li .numbers div span{
     position: absolute;
     top: 8px;
-    left: 12.4px;
+    left: 12.5px;
 }
 
+.blog-fourth-section .bottom-section .left-section .pagination hr  {
+    border: 1px solid var(--color-border);
+    margin-bottom: 20px;
+ }
 
 .blog-fourth-section .bottom-section .left-section .blog-post{
     cursor: pointer;
@@ -278,9 +282,8 @@ input[type="search"] {
 
 .blog-fourth-section .bottom-section .right-section .recent-posts hr{
     border: 1px solid var(--color-border);
-     margin-top: 40px;
+    margin-top: 40px;
  }
 
 
- 
- 
+

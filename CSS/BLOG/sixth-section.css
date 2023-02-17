@@ -1,0 +1,16 @@
+.sixth-section {
+    background-color: #0D2857;
+    position: absolute;
+    top: 292vh;
+    left: 0;
+    right: 0;
+    /* bottom: -897vh; */
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+    height: 1px;
+}
+

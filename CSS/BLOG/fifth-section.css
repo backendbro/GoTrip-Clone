@@ -1,0 +1,87 @@
+:root {
+    --color-dark-2: #0D2857;
+    --color-white:white;
+    --color-black: black;
+    --color-blue-1:#3554D1;
+}
+
+.fifth-section {
+    background-color: var(--color-dark-2);
+    position: absolute;
+    top: 252vh;
+    left: 0;
+    right: 0;
+    display: flex;
+    color: var(--color-white);
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+    height: 60px;
+}
+
+
+
+.fifth-section .left-section {
+    padding-left: 170px;
+    display: flex;
+}
+
+.fifth-section .left-section i {
+    margin-right: 25px;
+    font-size: 68px;
+    margin-top: 20px;
+}
+
+.fifth-section .left-section h2{
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: -20px;
+}
+
+
+.fifth-section .left-section p {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.fifth-section .right-section {
+    padding-right: 170px;
+    font-family: "Jost", "Roboto";
+}
+
+.fifth-section .right-section input {
+    width: 420px;
+    height: 55px;
+    border-radius: 5px;
+    color: var(--color-black);
+    border: none;
+    font-size: 16px;
+    padding-left: 15px;
+    outline: none;
+}
+
+
+.fifth-section .right-section input::placeholder {
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Jost", "Roboto";
+}
+
+.fifth-section .right-section button {
+    padding: 14px 30px;
+    background-color: var(--color-blue-1);
+    height: 55px;
+    border-radius: 5px;
+    color: var(--color-white);
+    font-family: "Jost", "Roboto";
+    border: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.2;
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+
+
