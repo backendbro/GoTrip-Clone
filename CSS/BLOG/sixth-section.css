@@ -14,7 +14,7 @@
     top: 275vh;
     left: 0;
     right: 0;
-    bottom: -664vh;
+    bottom: -234vh;
     background-color: var(--color-white);
     width: 1400px;
     display: flex;
@@ -23,50 +23,50 @@
     
 }
 
-.footer-home-section .footer-top-section {
+.sixth-section .footer-top-section {
     padding: 50px 180px;
     display: grid;
     grid-template-columns: repeat(5, 280px);
 }
 
-.footer-home-section .footer-top-section h4 {
+.sixth-section .footer-top-section h4 {
     font-weight: 500;
     margin-bottom: 50px;
     font-size: 16px;
 }
 
-.footer-home-section .footer-top-section p {
+.sixth-section .footer-top-section p {
     color: #051036;
     font-size: 14px;
     margin-top: 50px;
 }
 
-.footer-home-section .footer-top-section ul li {
+.sixth-section .footer-top-section ul li {
     list-style: none;
 }
 
-.footer-first-section, .footer-second-section, .footer-third-section, .footer-fourth-section, .footer-fifth-section {
+.sixth-section .footer-first-section, .footer-second-section, .footer-third-section, .footer-fourth-section, .footer-fifth-section {
     display: flex;
     flex-direction: column;
     position: relative;
 }
 
-.footer-first-section ul{
+.sixth-section .footer-first-section ul{
     position: absolute;
     left: -40px;
 }
 
-.footer-second-section ul, .footer-third-section ul, .footer-fourth-section ul, .footer-fifth-section ul {
+.sixth-section .footer-second-section ul, .footer-third-section ul, .footer-fourth-section ul, .footer-fifth-section ul {
     position: absolute;
     left: -40px;
     top: 50px;
 }
 
-.footer-first-section ul li {
+.sixth-section .footer-first-section ul li {
     margin-bottom: -20px;
 }
 
-.footer-second-section ul li, .footer-third-section ul li, .footer-fourth-section ul li, .footer-fifth-section ul li  {
+.sixth-section .footer-second-section ul li, .footer-third-section ul li, .footer-fourth-section ul li, .footer-fifth-section ul li  {
     padding-top: 5px;
     padding-bottom: 5px;
     transition: color 0.2s ease-in-out;
@@ -74,21 +74,21 @@
     cursor: pointer;
 }
 
-.footer-first-section ul li p {
+.sixth-section .footer-first-section ul li p {
     margin-bottom: 5px;
     line-height: 1.45;
 }
 
-.footer-first-section ul li span {
+.sixth-section .footer-first-section ul li span {
     color: #3554D1;
 }
 
-.footer-second-section ul li:hover, .footer-third-section ul li:hover, .footer-fourth-section ul li:hover {
+.sixth-section .footer-second-section ul li:hover, .footer-third-section ul li:hover, .footer-fourth-section ul li:hover {
     color: #3554D1;
 }
 
 
-.footer-fifth-section ul li  {
+.sixth-section .footer-fifth-section ul li  {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,32 +97,32 @@
     padding: 10px 45px;
 }
 
-.footer-fifth-section ul li i {
+.sixth-section .footer-fifth-section ul li i {
     font-size: 25px;
 }
 
-.footer-fifth-section ul li span {
+.sixth-section .footer-fifth-section ul li span {
     display: block;
     margin-bottom: 1px;
     margin-left: 20px;
 }
 
-.footer-fifth-section ul li span:nth-child(1){
+.sixth-section .footer-fifth-section ul li span:nth-child(1){
     color: #697488;
     font-size: 14px;
 }
 
-.footer-fifth-section ul li span:nth-child(2){
+.sixth-section .footer-fifth-section ul li span:nth-child(2){
     font-size: 14px;
     font-weight: 500;
     line-height: 1;
 }
 
-.footer-bottom-section{
+.sixth-section .footer-bottom-section{
     margin-bottom: -10px;
 }
 
-.footer-bottom-section .footer-hr {
+.sixth-section .footer-bottom-section .footer-hr {
     font-weight: 100;
     margin-left: 135px;
     width: 1300px;
@@ -130,14 +130,14 @@
 }
 
 
-.footer-bottom-section-container {
+.sixth-section .footer-bottom-section-container {
     margin-top: 10px;
     display: flex;
     margin-left: 120px;
     justify-content: space-between;    
 }
 
-.footer-bottom-section-container
+.sixth-section .footer-bottom-section-container
  .footer-left-section ul, 
  .footer-bottom-section-container
  .footer-right-section ul {
@@ -145,7 +145,7 @@
 }
 
 
-.footer-bottom-section-container >
+.sixth-section .footer-bottom-section-container >
 .footer-left-section ul li,
 .footer-right-section ul li   
  {
@@ -154,8 +154,8 @@
 }
 
 
-.footer-right-section ul li:nth-child(2) a,
-.footer-right-section ul li:nth-child(4) a{
+.sixth-section .footer-right-section ul li:nth-child(2) a,
+.sixth-section .footer-right-section ul li:nth-child(4) a{
     font-weight: 500;
     color: #051036;
     font-size: 14px;
@@ -163,6 +163,6 @@
 }
 
 
-.hideme {
+.sixth-section .hideme {
     opacity: 0;
 }
