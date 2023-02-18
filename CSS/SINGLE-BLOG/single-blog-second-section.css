@@ -1,0 +1,126 @@
+:root {
+    --color-blue-1:#3554D1;
+    --color-dark-1: #051036;
+    --color-light-1:#697488;
+    --color-border: #DDDDDD;
+    --color-light-2: #F5F5F5;
+    --color-light-3: #52575f;
+    --debugger: 1px solid red;
+}
+
+
+.single-blog-second-section {
+    position: absolute;
+    top: 127vh;
+    right: 367px;
+    left: 367px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0;
+}
+
+
+.single-blog-second-section h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.45;
+    margin-bottom: 3px;
+}
+
+
+.single-blog-second-section > 
+.blog-intro,  
+.bullet-points, 
+.blog-mid-first-section, 
+.blog-mid-second-section, 
+.blog-last-first-section, 
+.blog-last-second-section
+{
+    margin-top: 20px;
+    font-size:15px;
+    color: var(--color-light-3);
+    line-height: 1.875;
+}
+
+.single-blog-second-section .bullet-points{
+    margin-top: 30px;
+    margin-left: -22px;
+    font-size:15px;
+    color: var(--color-light-3);
+}
+
+.single-blog-second-section .blockquote{
+    display: flex;
+    margin-top: 22px;
+}
+
+.single-blog-second-section  .blockquote .vertical-line{
+    border-left: 5px solid var(--color-blue-1);
+    height: 140px;
+}
+
+
+.single-blog-second-section  .blockquote i{
+    padding: 20px 0;
+    padding-left: 14px;
+    margin-bottom: 30px;
+    margin-top: 0;
+    font-size: 40px;
+    color: var(--color-light-2);
+}
+
+.single-blog-second-section  blockquote{
+  margin-left: 20px;
+  margin-top: 9px;
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--color-dark-1);
+  line-height: 1.875;
+  width: 650px;
+}
+
+
+.single-blog-second-section .blog-mid-first-section{
+    margin-top: 23px;
+}
+
+.single-blog-second-section .blog-mid-second-section{
+  margin-bottom: 33px;
+}
+
+
+.single-blog-second-section .blog-image-section {
+   display: flex;
+}
+
+
+.single-blog-second-section .blog-image-section > .left-section img, .right-section img{
+    border-radius: 8px;
+}
+
+.single-blog-second-section .blog-image-section .left-section img{
+    margin-right: 25px;
+}
+
+.single-blog-second-section .blog-image-section > .left-section .text,  .right-section .text{
+    margin-top: 10px;
+    font-size: 15px;
+    color: var(--color-dark-1);
+}
+
+.single-blog-second-section .icons {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.single-blog-second-section .icons .left-section{
+    display: flex;
+}
+
+.single-blog-second-section .icons .right-section{
+    display: flex;  
+}
