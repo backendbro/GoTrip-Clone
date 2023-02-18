@@ -9,3 +9,8 @@ document.addEventListener('DOMContentLoaded', function () {
     activeBtn.style.marginRight = "10px"
     activeBtn.style.display = "inline-block"
 })
+
+AOS.init({
+    duration: 3000,
+    once: true
+});
