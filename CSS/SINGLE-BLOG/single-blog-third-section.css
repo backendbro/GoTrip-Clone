@@ -1,0 +1,75 @@
+:root {
+    --color-blue-1:#3554D1;
+    --color-dark-1: #051036;
+    --color-light-1:#697488;
+    --color-border: #DDDDDD;
+    --color-light-2: #F5F5F5;
+    --color-light-3: #52575f;
+    --debugger: 1px solid red;
+}
+
+.single-blog-third-section {
+    position: absolute;
+    top: 330vh;
+    right: 367px;
+    left: 367px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+
+.single-blog-third-section .blogger-profile {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 15px;
+}
+
+.single-blog-third-section .blogger-profile .img-box img{ 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 30px;
+}
+
+.single-blog-third-section .blogger-profile .blogger-description {
+    margin-top: -20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.single-blog-third-section .blogger-profile .blogger-description h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.single-blog-third-section .blogger-profile .blogger-description div:nth-child(2) {
+    color: var(--color-light-1);
+    font-size: 14px;
+    margin-top: -14px;
+    margin-bottom: 20px;
+}
+
+.single-blog-third-section .blogger-profile .blogger-description div:nth-child(3) {
+    font-size: 15px;
+    margin-top: 10px;
+    color: var(--color-light-3);
+}
+
+.single-blog-third-section .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    border-bottom: 1px solid var(--color-border);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 100px;
+}
+
+
