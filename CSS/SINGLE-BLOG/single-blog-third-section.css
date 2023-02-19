@@ -1,6 +1,7 @@
 :root {
     --color-blue-1:#3554D1;
     --color-dark-1: #051036;
+    --color-dark-2:#212529;
     --color-light-1:#697488;
     --color-border: #DDDDDD;
     --color-light-2: #F5F5F5;
@@ -59,17 +60,55 @@
 .single-blog-third-section .blogger-profile .blogger-description div:nth-child(3) {
     font-size: 15px;
     margin-top: 10px;
-    color: var(--color-light-3);
+    color: var(--color-dark-2);
 }
 
 .single-blog-third-section .pagination {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: top;
     border-bottom: 1px solid var(--color-border);
     padding-top: 30px;
     padding-bottom: 30px;
     margin-bottom: 100px;
+    width: 840px;
+    cursor: pointer;
 }
 
+
+
+.single-blog-third-section .pagination > .prev, .next {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    color: var(--color-dark-2);
+}
+
+
+.single-blog-third-section .pagination .prev i {
+    margin-right: 20px;
+    font-size: 20px;
+    color: var(--color-light-1);
+}
+
+.single-blog-third-section .pagination > .prev:hover, .next:hover {
+    color: var(--color-blue-1);
+}
+
+.single-blog-third-section .pagination .next i {
+    margin-left: 20px;
+    font-size: 20px;
+    color: var(--color-light-1);
+}
+
+.single-blog-third-section .pagination > .prev .prev-text div:nth-child(1), .next .next-text div:nth-child(1) {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.single-blog-third-section .pagination > .prev .prev-text div:nth-child(2), .next .next-text div:nth-child(2){
+    font-size: 14px;
+    width: 200px;
+}
 
