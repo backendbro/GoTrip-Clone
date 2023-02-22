@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+     crossorigin="anonymous">
 
     <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
 
@@ -23,6 +26,7 @@
     <link rel="stylesheet" href="/CSS/SINGLE-BLOG/single-blog-third-section.css">
     <link rel="stylesheet" href="/CSS/SINGLE-BLOG/single-blog-fourth-section.css">
     <link rel="stylesheet" href="/CSS/SINGLE-BLOG/single-blog-fifth-section.css">
+    <!-- <link rel="stylesheet" href="/CSS/SINGLE-BLOG/text.css"> -->
 
     <title>Gotrip Blog</title>
 </head>
@@ -471,19 +475,24 @@
            <form action="#">
                <div>
                 
-                <div class="form-input">
-                    <input type="text"  name="text" placeholder="Text">
-                    <label for="text">enter text</label>
-                </div>
-                <div class="form-input">
-                    <input type="text" placeholder="Email">
-                    <label for="text">enter email</label>
-                </div>
+                <label class="custom-field one">
+                    <input type="text" placeholder=" "/>
+                    <span class="placeholder">Text</span>
+                  </label>
+
+                <label class="custom-field one">
+                    <input type="text" placeholder=" "/>
+                    <span class="placeholder">Email</span>
+                  </label>
     
             </div>
 
-                <textarea name="textarea"></textarea>
-                <label for="textarea"></label>
+
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Comments</label>
+              </div>
+                  
                 <a href="#">Post Comment</a>    
                
                
@@ -612,5 +621,11 @@
                 </div>
     </section> -->
 
+
+    <script 
+ src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+ integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+ crossorigin="anonymous"
+></script>
 </body>
 </html>

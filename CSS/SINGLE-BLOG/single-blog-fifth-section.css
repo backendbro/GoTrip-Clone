@@ -1,3 +1,8 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 :root {
     --color-blue-1:#3554D1;
@@ -8,6 +13,7 @@
     --color-light-3: #52575f;
     --color-light-4:#a7afbe;
     --color-border: #DDDDDD;
+    --field-padding: 12px;
     --debugger: 1px solid red;
 }
 
@@ -55,47 +61,74 @@
     justify-content: space-between;
 }
 
-.single-blog-fifth-section form div .form-input {
-    display: flex;
-    width: 400px;
+
+.single-blog-fifth-section form .custom-field {
     position: relative;
+    border-top: 20px solid transparent;
+    margin-bottom: 5px;
+    display: inline-block;
+    --field-padding: 12px;
 }
 
-.single-blog-fifth-section form div .form-input input {
-    border-radius: 4px;
-    width:100%;
-    min-height: 70px;
-    padding: 0 15px;
-    transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+.single-blog-fifth-section form .custom-field input {
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    
+    background: white;
+    padding: var(--field-padding);
+    border-radius: 3px;
+    
+    width: 410px;
+    height: 60px;
+    outline: none;
+    
+    
+    border: 1px solid var(--color-border);
     font-size: 500;
-    color: var(--color-dark-1);
     font-size: 16px;
     line-height: 1.875;
-}
+  }
+  
 
-
-
-.single-blog-fifth-section form div .form-input label {
+  .single-blog-fifth-section form .custom-field .placeholder {
     position: absolute;
-    top: 4px;
-    padding:  0 15px;
-    color: var(--color-light-4);
-    font-size: 16px;
+    left: var(--field-padding);
+    width: calc(100% - (var(--field-padding) * 2));
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    top: 22px;
+    line-height: 100%;
+    transform: translateY(-50%);
+    color: var(--color-light-1);
+    transition: top 0.3s ease, color 0.3s ease, font-size 0.3s ease;
+  }
+  
+  .custom-field input.dirty + .placeholder,
+  .custom-field input:focus + .placeholder,
+  .custom-field input:not(:placeholder-shown) + .placeholder {
+    top: 10px;
+    font-size: 14px;
     line-height: 1;
+    color: var(--color-light-1);
+  }
+  
+
+  .custom-field.two input {
+    border-radius: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background: linear-gradient(90deg, #222, #222) center bottom/0 0.15em
+    no-repeat,
+    linear-gradient(90deg, #ccc, #ccc) left bottom/100% 0.15em no-repeat,
+    linear-gradient(90deg, #fafafa, #fafafa) left bottom/100% no-repeat;
+    transition: background-size 0.3s ease;
+  }
+  
+  .custom-field.two input.dirty,
+  .custom-field.two input:not(:placeholder-shown),
+  .custom-field.two input:focus {
+  background-size: 100% 0.15em, 100% 0.1em, 100%;
 }
-
-
-
-
-.single-blog-fifth-section form textarea {
-    border: 1px solid var(--color-border);
-    border-radius: 4px;
-    padding: 0 15px;
-    padding-top: 25px;
-    min-height: 70px;
-    transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
-    outline: none;
-    width: 100%;
-    background-color: transparent;
-}
-
