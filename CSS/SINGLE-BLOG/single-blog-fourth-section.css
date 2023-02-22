@@ -34,8 +34,13 @@
     display: flex;
 }
 
+.single-blog-fourth-section .comment-section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .single-blog-fourth-section .comment-section .top-section img {
-  margin-right: 20px;
+    margin-right: 20px;
 }
 
 .single-blog-fourth-section .comment-section .top-section .location div:nth-child(1){
@@ -64,10 +69,72 @@
    color: var(--color-dark-1);
 }
 
+.single-blog-fourth-section .comment-section .bottom-section {
+    padding-top: 10px;
+}
 
 .single-blog-fourth-section .comment-section .bottom-section .img-container img{ 
     border-radius: 4px;
     max-width: 100%;
     height: auto;
-    margin-right: 24px;
+    margin-right: 22px;
+}
+
+
+.single-blog-fourth-section .comment-section .bottom-section .likes { 
+    display: flex;
+    align-items: center;
+    padding-top: 20px
+}
+
+.single-blog-fourth-section .comment-section .bottom-section .likes > .thumbs-up, .thumbs-down{ 
+    display: flex;
+    align-items: center;
+}
+
+.single-blog-fourth-section .comment-section .bottom-section .likes .thumbs-up{
+    margin-right: 25px;
+}
+
+.single-blog-fourth-section .comment-section .bottom-section .likes .thumbs-up i{
+    color: var(--color-blue-1); 
+    margin-right: 10px;
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+.single-blog-fourth-section .comment-section .bottom-section .likes .thumbs-up div{
+    color: var(--color-blue-1); 
+}
+
+.single-blog-fourth-section .comment-section .bottom-section .likes .thumbs-down i{
+    color: var(--color-light-1);
+    margin-right: 10px;
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+.single-blog-fourth-section .comment-section .bottom-section .likes .thumbs-down div{
+    color: var(--color-light-1);
+}
+
+.single-blog-fourth-section  .show-replies{
+    margin-top: 20px;
+}
+
+.single-blog-fourth-section  .show-replies a{
+    padding: 14px 30px;
+    border: 1px solid var(--color-blue-1);
+    text-decoration: none;
+    background-color: white;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.2;
+    border-radius: 4px;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.single-blog-fourth-section  .show-replies a:hover {
+    background-color: var(--color-blue-1);
+    color: white;
 }
