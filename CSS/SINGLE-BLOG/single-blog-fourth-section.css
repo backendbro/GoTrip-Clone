@@ -24,8 +24,6 @@
 }
 
 .single-blog-fourth-section h2 {
-    padding-top: 30px;
-    margin-bottom: 15px;
     font-weight: 500;
     font-size: 22px;
 }
@@ -35,8 +33,8 @@
 }
 
 .single-blog-fourth-section .comment-section{
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .single-blog-fourth-section .comment-section .top-section img {
@@ -64,7 +62,7 @@
 
 
 .single-blog-fourth-section .comment-section .middle-section p{ 
-   margin-top: -10px;
+   margin-top: 10px;
    font-size: 15px;
    color: var(--color-dark-1);
 }
@@ -80,11 +78,17 @@
     margin-right: 22px;
 }
 
-
+/* Take not of this  */
 .single-blog-fourth-section .comment-section .bottom-section .likes { 
     display: flex;
     align-items: center;
-    padding-top: 20px
+    margin-bottom: 20px;
+}
+
+.single-blog-fourth-section .comment-section .bottom-section .active { 
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
 }
 
 .single-blog-fourth-section .comment-section .bottom-section .likes > .thumbs-up, .thumbs-down{ 
@@ -132,6 +136,7 @@
     line-height: 1.2;
     border-radius: 4px;
     transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    margin-bottom: 10px;
 }
 
 .single-blog-fourth-section  .show-replies a:hover {

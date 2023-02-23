@@ -35,20 +35,21 @@
    color: var(--color-blue-1);
    font-weight: 500;
    font-size: 15px;
-   margin-bottom: -30px;
+   margin-bottom: 30px;
 }
 
 .single-blog-first-section .top-section .header h1{
     font-weight: 600;
     font-size: 30px;
+    margin-top: -27px;
  }
 
 
  .single-blog-first-section .top-section .header .april-text{
     color: var(--color-light-1);
     font-size: 15px;
-    margin-top: -20px;
-    margin-bottom: 19px;
+    margin-top: 4px;
+    margin-bottom: 20px;
  }
  
  .single-blog-first-section .top-section .header-img img {

@@ -1,7 +1,7 @@
 :root {
     --color-blue-1:#3554D1;
     --color-dark-1: #051036;
-    --color-dark-2:#212529;
+    --color-dark-2:#051036;
     --color-light-1:#697488;
     --color-border: #DDDDDD;
     --color-light-2: #F5F5F5;
@@ -53,7 +53,7 @@
 .single-blog-third-section .blogger-profile .blogger-description div:nth-child(2) {
     color: var(--color-light-1);
     font-size: 14px;
-    margin-top: -14px;
+    margin-top: -10px;
     margin-bottom: 20px;
 }
 
