@@ -1,8 +1,8 @@
 *,
-*::before,
+/* *::before,
 *::after {
   box-sizing: border-box;
-}
+} */
 
 :root {
     --color-blue-1:#3554D1;
@@ -23,13 +23,13 @@
     top: 592vh;
     right: 367px;
     left: 367px;
-    padding: 0;
     border-top: 1px solid var(--color-border);
-}
+  }
 
 .single-blog-fifth-section .container {
     margin-top: 40px;
-}
+    margin-bottom: 3100px;
+  }
 
 .single-blog-fifth-section h3 {
     font-weight: 500;
@@ -39,10 +39,10 @@
 }
 
 .single-blog-fifth-section p {
-    margin-top: -14px;
+    margin-top: 14px;
     color: var(--color-dark-1);
     font-size: 15px;
-}
+  }
 
 .single-blog-fifth-section form {
    
@@ -53,7 +53,7 @@
    flex-direction: column;
    justify-content: space-between;    
    margin-top: 23px;
-   margin-bottom: 300px;
+   margin-bottom: 40px;
 }
 
 .single-blog-fifth-section form div {
@@ -65,9 +65,9 @@
 .single-blog-fifth-section form .custom-field {
     position: relative;
     border-top: 20px solid transparent;
-    margin-bottom: 5px;
+    margin-bottom: 30px;
     display: inline-block;
-    --field-padding: 12px;
+
 }
 
 .single-blog-fifth-section form .custom-field input {
@@ -80,10 +80,9 @@
     padding: var(--field-padding);
     border-radius: 3px;
     
-    width: 410px;
+    width: 400px;
     height: 60px;
     outline: none;
-    
     
     border: 1px solid var(--color-border);
     font-size: 500;
@@ -91,6 +90,10 @@
     line-height: 1.875;
   }
   
+  .single-blog-fifth-section form .custom-field .pick-me {
+    margin-right: 20px;
+  }
+
 
   .single-blog-fifth-section form .custom-field .placeholder {
     position: absolute;
@@ -113,6 +116,7 @@
     font-size: 14px;
     line-height: 1;
     color: var(--color-light-1);
+    
   }
   
 
@@ -131,4 +135,43 @@
   .custom-field.two input:not(:placeholder-shown),
   .custom-field.two input:focus {
   background-size: 100% 0.15em, 100% 0.1em, 100%;
+    
+}
+
+.form-control:focus{
+  border-color: var(--color-border);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  
+}
+
+.form-control{
+  font-size: 500;
+  font-size: 16px;
+  line-height: 1.875;
+}
+
+.form-floating {
+  height: 200px;
+}
+
+.form-floating label {
+  color: var(--color-light-1);
+}
+
+.single-blog-fifth-section .container .button {
+  background-color: var(--color-blue-1);
+  color: white;
+  text-decoration: none;
+  padding: 14px 30px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2;
+  border-radius: 4px;
+  transition: ease-in-out .5s;
+}
+
+.single-blog-fifth-section .container .button:hover {
+  background-color: var(--color-dark-1);
+  color: white;
 }
