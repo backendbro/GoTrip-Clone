@@ -266,6 +266,8 @@ input[type="search"] {
     font-size: 15px;
     border: none;
     cursor: pointer;
+    transition: .5s ease-in-out;
+  margin-right: 5px;
 }
 
 .blog-fourth-section .bottom-section .right-section .tag div button:hover{

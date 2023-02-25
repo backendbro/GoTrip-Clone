@@ -3,6 +3,7 @@
 :root {
     --color-blue-1:#3554D1;
     --color-dark-1: #051036;
+    --debugger:1px solid red;
 }
 
 *{
@@ -22,7 +23,7 @@
     width: 100%;
     z-index: 1000;
     height: 90px;
-    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    
 }
 
 .blog-header ul li {
@@ -32,6 +33,7 @@
     font-weight: 400;
     font-size: 14.5px;
     color:var(--color-dark-1);
+    margin-top: 15px;
 }
 
 .blog-header ul li a {
@@ -42,6 +44,7 @@
 .blog-logo-li {
     left: 0px;
     top: 0px;
+    padding-left: 10px;
 }
 
 .blog-left-section{
