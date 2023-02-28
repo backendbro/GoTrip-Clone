@@ -39,7 +39,18 @@ body{
     align-items: center;
     z-index: 10;
     margin: auto 0;
+    
+
+    /* position: relative;
+    animation-name: overrAllFadeDown;
+    
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: 1s;
+
+    transition-timing-function: ease-in-out; */
 }
+
 
 .first-section .top-section, .first-section .bottom-section {
     display: flex;
