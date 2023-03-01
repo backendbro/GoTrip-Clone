@@ -113,4 +113,106 @@ header .first-section .search-div .search-bar .search-btn i {
 
 header .last-section ul {
     display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
 }
+
+header .last-section ul li {
+    list-style: none;
+    font-size: 15.2px;
+    font-weight: 500;
+    margin: 0;
+}
+
+header .last-section ul .links {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+header .last-section ul .links .lisanity {
+}
+
+.lisanity {
+    padding-top:12px;
+}
+
+
+header .last-section ul li, 
+header .last-section ul li a {
+    color: #242b46;
+}
+
+header .last-section ul li a  {
+    text-decoration: none;
+}
+
+
+header .last-section ul li img  {
+    border-radius: 40%;
+}
+
+header .last-section ul li i  {
+    font-size: 17px;
+}
+
+
+
+header .last-section {
+    width: 54.9%;
+}
+
+
+
+.dropdown {
+    position: relative;
+    margin-left: 5px;
+}
+
+.dropdown-options {
+    display: none;
+    box-shadow: 2px 1px 3px 1px var(--color-light-4);
+    position: absolute;
+    overflow: hidden;
+    background-color:#fff;
+    width: 240px;
+}
+  
+.dropdown:hover .dropdown-options {
+    display: block;
+    color: white;
+    top: 18px;
+    left: -70px;
+  }
+  
+  .dropdown-options a {
+    display: block;
+    margin-left: 23px;
+    text-align: left;
+    color: #242b46;
+    text-decoration: none;
+    padding:20px 10px 2px 10px;
+    font-family: 'Jost',sans-serif;
+    scroll-behavior: hidden;
+    font-size: 15.2px;
+    font-weight: 500;
+}
+
+.dropdown-options a:nth-child(1){
+    margin-top: 30px;
+  }
+
+  .last-child {
+    margin-bottom: 30px;
+  }
+  
+.dropdown-options a:hover {
+    color: var(--color-blue-1);
+    background-color: rgb(236, 233, 233);
+    width: 150px;
+}
+  
+.dropdown-options a:hover a:active {
+    color: red;
+}
+
