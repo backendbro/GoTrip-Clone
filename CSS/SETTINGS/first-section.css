@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&family=Solitreo&display=swap');
+
+
+:root {
+    --color-blue-1:#3554D1;
+    --color-dark-1: #051036;
+    --color-dark-2:#212529;
+    --color-light-1:#697488; 
+    --color-light-2: #F5F5F5;
+    --color-light-3: #52575f;
+    --color-light-4:#a7afbe;
+    --color-border: #DDDDDD;
+    --field-padding: 12px;
+    --debugger: 1px solid red;
+}
+
+html {
+    font-family: "Jost", "Roboto";
+}
+
+body{
+    line-height: 1.875;
+}
+
+header {
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    
+    left: 0;
+    right: 0;
+
+    width: 96.1%;
+    height: 60px;
+
+    padding-left: 30px; 
+    padding-right: 30px; 
+    padding-top: 20px;
+    padding-bottom: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+header .first-section {
+    width: 39%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .first-section .search-div {
+    display: flex;
+    align-items: center;
+    margin-left: 185px;
+    width: 50%;
+}
+
+header .first-section .search-div .icon-div  {
+    margin-right: 30px;
+}
+
+header .first-section .search-div .icon-div i {
+    font-size: 30px;
+    line-height: 1;
+}
+
+
+header .first-section .img-box img {
+    width: 140px;
+}
+
+header .first-section .search-div .search-bar {
+    display: flex;
+    height: 47px;
+    border: 1px solid var(--color-border);
+}
+
+
+header .first-section .search-div .search-bar .search-box {
+    border-radius: 4px;
+    padding: 0px 18px;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    color: var(--color-dark-1);
+    outline: none;
+    border: none;
+    font-family: "Jost";
+
+    height: 47px;
+    width: 155px;
+}
+
+header .first-section .search-div .search-bar .search-box::placeholder {
+   font-family: "Jost";
+}
+
+header .first-section .search-div .search-bar .search-btn {
+    height: 47px;
+    background-color: transparent;
+    border-radius: 4px;
+    border: none;
+}
+
+header .first-section .search-div .search-bar .search-btn i {
+    padding-left: 10px;
+   font-size: 20px;
+   line-height: 1;
+}
+
+header .last-section ul {
+    display: flex;
+}
