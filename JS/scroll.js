@@ -143,10 +143,10 @@ if (window.matchMedia("(min-width: 768px)").matches) {
 });
 
 
-AOS.init({
-    duration: 3000,
-    once: true
-});
+// AOS.init({
+//     duration: 3000,
+//     once: true
+// });
 
 
 $(document).ready(function(){

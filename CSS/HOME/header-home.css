@@ -43,7 +43,7 @@ body{
     font-size: 14.5px;
 }
 
-.header ul li a {
+.header .left-section ul li a {
     text-decoration: none;
     color:white;
 }
@@ -98,16 +98,17 @@ body{
     top: 1px;
 }
 
-.right-section ul li button {
+.right-section ul li a {
     border-radius: 4px;
     cursor: pointer;
+    text-decoration: none;
 }
+
 
 .become-expert{
     padding: 16px 35px;
-    background-color: white;
+    background: white;
     color: black;
-    border: none;
 }
 
 .become-expert:active {
@@ -119,13 +120,14 @@ body{
     background-color: transparent;
     border: .2px solid white;
     color: white;
-    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: .6s ease-in-out;
 }
 
 .register:hover{
     color: black;
     background-color: white;
 }
+
 
 header i {
     margin-left: 5px;
