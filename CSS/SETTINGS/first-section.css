@@ -114,12 +114,13 @@ header .first-section .search-div .search-bar .search-btn i {
 header .last-section ul {
     display: flex;
     justify-content: space-between;
-    margin-right: 20px;
+    align-items: center;
+    margin-right: 20px; 
 }
 
 header .last-section ul li {
     list-style: none;
-    font-size: 15.2px;
+    font-size: 14.5px;
     font-weight: 500;
     margin: 0;
 }
@@ -130,12 +131,18 @@ header .last-section ul .links {
     width: 80%;
 }
 
-header .last-section ul .links .lisanity {
+header .last-section ul .links .lisanity:nth-child(7) {
+    padding-right: 35px;
 }
 
-.lisanity {
-    padding-top:12px;
+.profile-message {
+    padding-right: 18px;
 }
+
+.profile-notif {
+    padding-right: 18px;
+}
+
 
 
 header .last-section ul li, 
@@ -200,18 +207,18 @@ header .last-section {
 
 .dropdown-options a:nth-child(1){
     margin-top: 30px;
-  }
+}
 
-  .last-child {
+.last-child {
     margin-bottom: 30px;
-  }
-  
+}
+
 .dropdown-options a:hover {
     color: var(--color-blue-1);
     background-color: rgb(236, 233, 233);
     width: 150px;
 }
-  
+
 .dropdown-options a:hover a:active {
     color: red;
 }
