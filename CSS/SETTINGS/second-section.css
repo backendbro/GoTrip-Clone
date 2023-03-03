@@ -1,42 +1,58 @@
+:root {
+    --color-blue-1:#3554D1;
+    --color-dark-1: #051036;
+    --color-dark-2:#212529;
+    --color-light-1:#697488; 
+    --color-light-2: #F5F5F5;
+    --color-light-3: #52575f;
+    --color-light-4:#a7afbe;
+    --color-border: #DDDDDD;
+    --field-padding: 12px;
+    --debugger: 1px solid red;
+}
+
+
+body{
+    line-height: 1.875;
+}
 
 .second-section {
     position: absolute;
     top: 20vh;
 }
 
-.grid-container {
-    width: 90vw;
+.second-section .grid-container {
+    width: 98.4vw;
     margin: 0 auto;
     height: 90vh;
     display: flex;
-    border: 2px solid rgba(0, 0, 0, .4);
     transition: 1s ease;
   }
   
-  .sidebar {
-    width: 30%;
+  .second-section .sidebar {
+    width: 20%;
     height: 100%;
-    background-color: #54a;
+    background-color: white;
     transition: 1s ease;
     position: relative;
   }
   
-  .main-content {
-    width: 70%;
+  .second-section .main-content {
+    width: 80%;
     height: 100%;
-    background-color: #ccc;
+    background-color: #F5F5F5;
     transition: 1s ease;
   }
   
-  .main-content_large {
+  .second-section .main-content_large {
     width: 99%;
   }
   
-  .sidebar_small {
+  .second-section .sidebar_small {
     width: 1%;
   }
   
-  .btn {
+  .second-section .btn {
     position: absolute;
     border: none;
     height: 40px;
@@ -48,3 +64,37 @@
     transform: translateX(-50%);
     cursor: pointer;
   }
+
+  .second-section .grid-container .sidebar ul  {
+    padding-right: 25px;
+  }
+
+  .second-section .grid-container .sidebar ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    padding: 0 15px;
+    height: 55px;
+  }
+
+  .second-section .grid-container .sidebar ul li img {
+    margin-right: 15px;
+  }
+
+  .second-section .grid-container .sidebar ul li div {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+
+.second-section .grid-container .sidebar ul .active {
+   background-color: rgba(53, 84, 209, 0.05);
+   color: var(--color-blue-1);
+}
+
+.second-section .grid-container .sidebar ul li div:hover {
+ color: var(--color-blue-1);
+}

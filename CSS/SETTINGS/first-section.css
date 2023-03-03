@@ -65,6 +65,7 @@ header .first-section .search-div .icon-div  {
 header .first-section .search-div .icon-div i {
     font-size: 30px;
     line-height: 1;
+    cursor: pointer;
 }
 
 
